@@ -1,4 +1,4 @@
-document.querySelector('#fname').addEventListener('blur',()=>{
-	let i=document.querySelector('#fname');
-	i.value=i.value.toUpperCase();
+let x=document.querySelector('#fname');
+x.addEventListener('blur',()=>{
+	x.value=x.value.toUpperCase();
 })
